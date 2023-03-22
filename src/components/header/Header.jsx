@@ -168,7 +168,6 @@ const Header = () => {
                 </ShowOnLogout>
                 <ShowOnLogin >
                   <a href="#inicio" style={{ color: " #BAABDA;" }}>
-                    <FaUserCircle className={styles.iconLogin} size={16} />
                     Hola, {displayName}
                   </a>
                 </ShowOnLogin>

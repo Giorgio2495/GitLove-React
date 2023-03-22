@@ -90,11 +90,12 @@ body{
        padding: 0;
       }
       .parrafo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 5px;
         justify-content: center;
-        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 125px;
         width: 100%;
       }
 }
