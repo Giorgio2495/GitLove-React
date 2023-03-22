@@ -87,54 +87,7 @@ export const WebsiteForm = (props) => {
           por eso{" "}
           <b>te invitamos a que hagas parte de nuestra Red de Amigos.</b>
         </p>
-        {/* <form onSubmit={handleSubmit} className="card card-body bg-secondary">
-                <label htmlFor="url">Paste your URL</label>
-                <div className="input-group mb-3">
-                    <div className="input-group-text bg-dark">
-                        <i className="material-icons">insert_link</i>
-                    </div>
-                    <input
-                        type="text"
-                        className="form-control"
-                        placeholder="https://someurl.xyz"
-                        value={website.url}
-                        name="url"
-                        onChange={handleInputChange}
-                    />
-                </div>
-
-                <label htmlFor="name">Website Name:</label>
-                <div className="input-group">
-                    <div className="input-group-text bg-dark">
-                        <i className="material-icons">create</i>
-                    </div>
-                    <input
-                        type="text"
-                        value={website.name}
-                        name="name"
-                        placeholder="Website Name"
-                        className="form-control mb-3"
-                        onChange={handleInputChange}
-                    />
-                </div>
-
-                <label htmlFor="description">Write a Description:</label>
-                <textarea
-                    rows="3"
-                    className="form-control mb-3"
-                    placeholder="Write a Description"
-                    name="description"
-                    value={website.description}
-                    onChange={handleInputChange}
-                ></textarea>
-
-                <button
-                    className="btn btn-primary btn-block"
-                    disabled={!website.url || !website.name}
-                >
-                    {props.currentId === "" ? "Save" : "Update"}
-                </button>
-            </form> */}
+       
         <form className={styles.formulario} onSubmit={handleSubmit}>
           <label htmlFor="url">Inscríbete aquí</label>
 

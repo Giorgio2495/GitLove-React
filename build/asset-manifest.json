@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Giorgio2495/GiveLove-React/static/css/main.0416f90b.css",
-    "main.js": "/Giorgio2495/GiveLove-React/static/js/main.0f2f4f16.js",
-    "static/media/spinner.jpg": "/Giorgio2495/GiveLove-React/static/media/spinner.afa973eee05e0ebff95a.jpg",
-    "static/media/LOG.png": "/Giorgio2495/GiveLove-React/static/media/LOG.bc73d919bbd56813a94c.png",
-    "static/media/register.png": "/Giorgio2495/GiveLove-React/static/media/register.c63eced99fcb38972a6c.png",
-    "static/media/forgot.png": "/Giorgio2495/GiveLove-React/static/media/forgot.cfba148d722f088aeddb.png",
-    "static/media/login.png": "/Giorgio2495/GiveLove-React/static/media/login.78ccab5e2cbeadd1d2f2.png",
-    "static/media/loader.gif": "/Giorgio2495/GiveLove-React/static/media/loader.9d11df4bdd0bb34de773.gif",
-    "index.html": "/Giorgio2495/GiveLove-React/index.html",
-    "main.0416f90b.css.map": "/Giorgio2495/GiveLove-React/static/css/main.0416f90b.css.map",
-    "main.0f2f4f16.js.map": "/Giorgio2495/GiveLove-React/static/js/main.0f2f4f16.js.map"
+    "main.css": "/static/css/main.04f95630.css",
+    "main.js": "/static/js/main.be8df825.js",
+    "static/media/spinner.jpg": "/static/media/spinner.afa973eee05e0ebff95a.jpg",
+    "static/media/LOG.png": "/static/media/LOG.bc73d919bbd56813a94c.png",
+    "static/media/register.png": "/static/media/register.c63eced99fcb38972a6c.png",
+    "static/media/forgot.png": "/static/media/forgot.cfba148d722f088aeddb.png",
+    "static/media/login.png": "/static/media/login.78ccab5e2cbeadd1d2f2.png",
+    "static/media/loader.gif": "/static/media/loader.9d11df4bdd0bb34de773.gif",
+    "index.html": "/index.html",
+    "static/media/plus.svg": "/static/media/plus.040e71cefb5ffdec4fd54e18bd008d7f.svg",
+    "main.04f95630.css.map": "/static/css/main.04f95630.css.map",
+    "main.be8df825.js.map": "/static/js/main.be8df825.js.map"
   },
   "entrypoints": [
-    "static/css/main.0416f90b.css",
-    "static/js/main.0f2f4f16.js"
+    "static/css/main.04f95630.css",
+    "static/js/main.be8df825.js"
   ]
 }
