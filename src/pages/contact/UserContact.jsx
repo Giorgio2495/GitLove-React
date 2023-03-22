@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section>
       <div className={`container ${styles.contact}`}>
-        <h2>Contáctenos</h2>
+        <h2 className={styles.hh}>Contáctenos</h2>
         <div className={styles.section}>
           <form ref={form} onSubmit={sendEmail}>
             <Card cardClass={styles.card}>
