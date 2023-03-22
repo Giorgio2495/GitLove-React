@@ -23,13 +23,6 @@ export const WebsiteForm = (props) => {
 
   const validURL = (str) => {
     var pattern = new RegExp();
-    //   "^(https?:\\/\\/)?" + // protocol
-    //     "((([a-z\\d]([a-z\\d-][a-z\\d]))\\.)+[a-z]{2,}|" + // domain name
-    //     "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
-    //     "(\\:\\d+)?(\\/[-a-z\\d%_.~+])" + // port and path
-    //     "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
-    //     "(\\#[-a-z\\d_]*)?$",
-    //   "i" // fragment locator
     return !!pattern.test(str);
   };
 
@@ -51,7 +44,6 @@ export const WebsiteForm = (props) => {
       });
     }
 
-    // Clean Form
     setWebsite(initialState);
     navigate("/");
   };
@@ -87,60 +79,11 @@ export const WebsiteForm = (props) => {
           por eso{" "}
           <b>te invitamos a que hagas parte de nuestra Red de Amigos.</b>
         </p>
-        {/* <form onSubmit={handleSubmit} className="card card-body bg-secondary">
-                <label htmlFor="url">Paste your URL</label>
-                <div className="input-group mb-3">
-                    <div className="input-group-text bg-dark">
-                        <i className="material-icons">insert_link</i>
-                    </div>
-                    <input
-                        type="text"
-                        className="form-control"
-                        placeholder="https://someurl.xyz"
-                        value={website.url}
-                        name="url"
-                        onChange={handleInputChange}
-                    />
-                </div>
-
-                <label htmlFor="name">Website Name:</label>
-                <div className="input-group">
-                    <div className="input-group-text bg-dark">
-                        <i className="material-icons">create</i>
-                    </div>
-                    <input
-                        type="text"
-                        value={website.name}
-                        name="name"
-                        placeholder="Website Name"
-                        className="form-control mb-3"
-                        onChange={handleInputChange}
-                    />
-                </div>
-
-                <label htmlFor="description">Write a Description:</label>
-                <textarea
-                    rows="3"
-                    className="form-control mb-3"
-                    placeholder="Write a Description"
-                    name="description"
-                    value={website.description}
-                    onChange={handleInputChange}
-                ></textarea>
-
-                <button
-                    className="btn btn-primary btn-block"
-                    disabled={!website.url || !website.name}
-                >
-                    {props.currentId === "" ? "Save" : "Update"}
-                </button>
-            </form> */}
         <form className={styles.formulario} onSubmit={handleSubmit}>
           <label htmlFor="url">Inscríbete aquí</label>
 
           <div >
             <div className="input-group-text bg-dark">
-              {/* <label className="material-icons">Nombre</label> */}
             </div>
             <input
               type="text"
@@ -154,7 +97,6 @@ export const WebsiteForm = (props) => {
           
           <div className="input-group">
             <div className="input-group-text bg-dark">
-              {/* //<i className="material-icons">Telefono</i> */}
             </div>
             <input
               type="number"
@@ -167,7 +109,6 @@ export const WebsiteForm = (props) => {
           </div>
           <div className="input-group">
             <div className="input-group-text bg-dark">
-              {/* <i className="material-icons">Voluntariado</i> */}
             </div>
             <input
               type="text"
@@ -180,7 +121,6 @@ export const WebsiteForm = (props) => {
           </div>
           <div className="input-group mb-3">
             <div className={styles.link}>
-              {/* //<i className={styles.insertarlink}>Correo electronico</i> */}
             </div>
             <input
               type="text"
@@ -191,8 +131,6 @@ export const WebsiteForm = (props) => {
               onChange={handleInputChange}
             />
           </div>
-
-          {/* <label htmlFor="description">Descripcion:</label> */}
           <textarea
             rows="3"
             className="form-control mb-3"

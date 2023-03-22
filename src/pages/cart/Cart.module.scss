@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body{
+    font-family: 'Salsa';
+    max-width: 100%;
+}
+
 .navREd {
   display: flex;
   text-align: center;
@@ -14,9 +20,9 @@
   font-size: 40px;
   width: 60%;
   background-color: #baabda;
-  color: #eee;
+  color: black;
   margin-top: 100px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Salsa';
 }
 .red {
   display: flex;
@@ -28,24 +34,22 @@
   padding: 12px 15em 0 5em;
   gap: 25px;
   .parrafo {
+    font-family: 'Salsa';
+    text-align: center;
     margin-top: 20px;
+    margin-left: 100px;
     width: 100%;
-    font-family: 'Inter', sans-serif;
-  
-  //   padding-right: 10px;
   }
 }
 
 .containerAmigos {
   display: flex;
   flex-direction: column;
-//   align-items:flex-start;
-//   justify-content: center;
- 
 }
 .formulario {
   width: 250px;
-  
+  font-family: 'Salsa'; 
+  margin-left: 100px;
   margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -66,15 +70,14 @@
     width: 55px;
     height: 35px;
   }
-  // select,
    textarea,
   .group {
+    font-family: 'Salsa';
       display: block;
       font-size: 1.6rem;
       font-weight: 300;
       padding: 1rem;
       margin: 1rem auto;
-      // width: 100%;
       border: 1px solid #777;
       border-radius: 3px;
       outline: none;
@@ -93,8 +96,6 @@
         justify-content: center;
         margin-top: 20px;
         width: 100%;
-      
-      //   padding-right: 10px;
       }
 }
 @media screen and (max-width: 470px) {
@@ -106,8 +107,6 @@
         margin-top: 20px;
         width: 250px;
         padding: auto;
-      
-      //   padding-right: 10px;
       }
       .red {
         display: flex;

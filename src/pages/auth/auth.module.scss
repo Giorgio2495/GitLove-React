@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body{
+    font-family: 'Salsa';
+}
+
+.linkss{
+    color: blue;
+}
 .auth {
     min-height: 80vh;
     display: flex;
@@ -16,7 +25,7 @@
 
         h2 {
             color: rgba(7, 6, 82, 0.986);
-            text-align: center;
+            text-align:p center;
         }
 
         form {
@@ -37,30 +46,32 @@
 
             .links {
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 margin: 5px 0;
             }
+           
 
             p {
                 text-align: center;
-                margin: 1rem;
-                
+                margin: 1rem; 
             }
         }
-
         .register {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 1rem;
-            
+        }
+        .registers {
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
         }
 
         p{
             font-size: 14px;
-        }
-        .registrese{
-            font-size: 7px;
         }
         span{
             margin-top: 0;

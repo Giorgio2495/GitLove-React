@@ -37,26 +37,26 @@ export const Reset = () => {
 
         <Card>
           <div className={styles.form}>
-            <h2>Reset Password</h2>
+            <h2>Restablecer contraseña</h2>
 
             <form onSubmit={resetPassword}>
               <input
                 type="text"
-                placeholder="Email"
+                placeholder="Ejemeplo@ejemplo.com"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
 
               <button type="submit" className="--btn --btn-primary --btn-block">
-                Reset Password
+              Restablecer contraseña
               </button>
               <div className={styles.links}>
                 <p>
-                  <Link to="/login">- Login</Link>
+                  <Link to="/login" className={styles.linkss}>Iniciar sesión</Link>
                 </p>
                 <p>
-                  <Link to="/register">- Register</Link>
+                  <Link to="/register" className={styles.linkss}> Registrarse</Link>
                 </p>
               </div>
             </form>

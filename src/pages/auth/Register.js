@@ -46,38 +46,38 @@ const Register = () => {
       <section className={`container ${styles.auth}`}>
         <Card>
           <div className={styles.form}>
-            <h2>Register</h2>
+            <h2>Registrate</h2>
 
             <form onSubmit={registerUser}>
               <input
                 type="text"
-                placeholder="Email"
+                placeholder="ejemplo@ejemplo.com"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="Contraseña"
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
               <input
                 type="password"
-                placeholder="Confirm Password"
+                placeholder="Confirme su contraseña"
                 required
                 value={cPassword}
                 onChange={(e) => setCPassword(e.target.value)}
               />
               <button type="submit" className="--btn --btn-primary --btn-block">
-                Register
+                Registrarse
               </button>
             </form>
 
             <span className={styles.register}>
-              <p>Already an account?</p>
-              <Link to="/login">Login</Link>
+              <p>¿Ya tienes una cuenta?</p>
+              <Link className={styles.registers} to="/login">Iniciar sección</Link>
             </span>
           </div>
         </Card>

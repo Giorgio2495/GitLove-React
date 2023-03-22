@@ -86,9 +86,8 @@ return (
               Iniciar Sesion
             </button>
             <div className={styles.links}>
-              <Link to="/reset">Restablecer contraseña</Link>
+              <Link to="/reset" className={styles.linkss}>Restablecer contraseña</Link>
             </div>
-            <p>-- or --</p>
           </form>
           <button
             className="--btn --btn-danger --btn-block"
@@ -98,7 +97,7 @@ return (
           </button>
           <span className={styles.register}>
             <p>No tiene cuenta?</p>
-            <Link className={styles.registrese} to="/register">Registrese</Link>
+            <Link className={styles.registers} to="/register">Registrese</Link>
           </span>
         </div>
       </Card>
